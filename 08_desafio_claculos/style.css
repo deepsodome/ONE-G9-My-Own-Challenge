@@ -128,8 +128,9 @@
   }
 
   .contenedor__scroll {
-    height: 200px; /* Ajusta la altura del contenedor de scroll */
+    height: 220px; /* Ajusta la altura del contenedor de scroll */
     font-size: 14px;
     justify-content: center;
+    width: auto;
   }
 }

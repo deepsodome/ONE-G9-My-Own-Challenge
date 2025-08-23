@@ -93,8 +93,7 @@
 }
 
 .contenedor__scroll{
-  width: 80%;
-  max-width: 80%;
+  width: auto;
   word-wrap: break-word;
   height: 21rem;
   background-color: #f8f8f83c;
@@ -105,9 +104,8 @@
   font-family: 'Inter', sans-serif;
   font-size: 1.3rem;
   color: #fff;
-  padding: 1rem;
+  padding: 20px;
   text-align: left;
-  margin: 0 auto;
 }
 
 .contenedor__scroll::-webkit-scrollbar {
@@ -134,8 +132,8 @@
     width: 90%; /* Ajusta el ancho para que se adapte a la pantalla */
     padding: 20px; /* Reduce el padding para que el contenido no se corte */
     top: 50%; /* Ajusta la posición vertical */
-    height: 600px;
-    max-height: 600px;
+    height: 670px;
+    max-height: 670px;
   }
 
   .container {
@@ -153,7 +151,8 @@
   }
 
   .contenedor__scroll {
-    height: 200px; /* Ajusta la altura del contenedor de scroll */
+    
+    height: 220px; /* Ajusta la altura del contenedor de scroll */
     font-size: 14px;
     justify-content: center;
   }

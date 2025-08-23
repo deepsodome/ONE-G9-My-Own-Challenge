@@ -108,13 +108,14 @@
     width: 90%; /* Ajusta el ancho para que se adapte a la pantalla */
     padding: 20px; /* Reduce el padding para que el contenido no se corte */
     top: 50%; /* Ajusta la posición vertical */
+    margin: auto;
   }
 
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
   }
 
   .button {
@@ -127,5 +128,6 @@
   .contenedor__scroll {
     height: 150px; /* Ajusta la altura del contenedor de scroll */
     font-size: 14px;
+    padding: .5rem;
   }
 }

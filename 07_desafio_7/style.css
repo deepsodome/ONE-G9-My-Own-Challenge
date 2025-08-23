@@ -108,7 +108,7 @@
 @media (max-width: 800px) {
   .content {
     width: 90%; /* Ajusta el ancho para que se adapte a la pantalla */
-    padding: 20px; /* Reduce el padding para que el contenido no se corte */
+    padding: 15px; /* Reduce el padding para que el contenido no se corte */
     top: 50%; /* Ajusta la posición vertical */
     max-height: 500px;
   }
@@ -122,13 +122,14 @@
 
   .button {
     width: 100%; 
-    margin: 10px 0;
+    margin: 15px 0;
     padding: 15px;
     font-size: 16px;
   }
 
   .contenedor__scroll {
-    height: 150px; /* Ajusta la altura del contenedor de scroll */
+    height: 220px; /* Ajusta la altura del contenedor de scroll */
     font-size: 14px;
+    width: auto;
   }
 }
